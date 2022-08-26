@@ -1,0 +1,34 @@
+name: testcipher
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  firebase_core: any
+  firebase_auth: any
+  firebase_dynamic_links: any
+  url_launcher: any
+  uni_links: any
+  http: ^0.13.5
+  github_sign_in: ^0.0.5-dev.4
+  get_cli: ^1.8.1
+  get: 4.6.5
+  dio: ^4.0.6
+  webview_flutter: ^3.0.4
+  shared_preferences: ^2.0.15
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/
